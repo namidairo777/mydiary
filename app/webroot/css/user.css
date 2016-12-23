@@ -1,0 +1,201 @@
+/**user home **/
+.user-left{
+    width: 700px;
+    float: left;
+
+}
+.user-main{
+    width: 100%;
+    border: 1px solid #d3d3d3;
+    border-top:none;
+    margin-right: 70px;
+    padding: 20px 10px;
+}
+.more{
+    display: inline;
+    float: right;
+}
+
+
+/********User-Panel*********/
+
+.user-right{
+    width: 400px;
+    background-color: #f7f7f7;
+    padding: 10px;
+    float:right;
+
+}
+.user-right h3{
+    text-align: center;
+}
+.user-right img{
+    display: block;
+    margin: 30px auto;
+}
+.user-right dl{
+    margin: 30px 50px;
+}
+.user-right dt{
+    float: left;
+    clear: both;
+    color: #666666;
+}
+.user-right dd{
+    margin-left: 170px;
+}
+.statistic{
+    margin: 0px auto;
+    padding: 5px 0px;
+    text-align: center;
+}
+.statistic h3{
+    color:#0072b8;
+}
+.statistic table{
+    display: block;
+}
+.statistic td{
+    width: 120px;
+    border-left: 1px #dddddd solid;
+}
+.statistic td:first-child{
+    border-left: none;
+}
+.statistic p{
+    text-align: center;
+}
+.user-right a{
+    margin: 5px auto;
+    width: 250px;
+}
+.communication{
+    width: 250px;
+    margin: 5px auto;
+}
+.user-profile{
+    margin: 0px auto;
+    padding: 5px 20px;
+    text-align: left;
+}
+.user-profile tr td{
+    width: 160px;
+    text-indent: 1em;
+}
+.user-profile tr td:first-child{
+    border-right: 1px #dddddd solid;
+}
+.score h4,.ranking h4{
+    text-indent: 1.75em;
+    text-align: left;
+}
+.score p{
+    color: #ff0000;
+    text-align: center;
+}
+.ranking p{
+    text-align: center;
+}
+.ranking p span{
+    padding:0 0.5em;
+}
+.ranking p span:first-child{
+    color: #ff0000;
+}
+.score p,.ranking p{
+    font-size: 20px;
+}
+
+.search{
+    display: block;
+    width: 350px;
+    margin: 10px auto;
+}
+
+.sort_button{
+    float: right;
+}
+.sort_button li{
+    margin-right:10px;
+}
+#htmltagcloud{
+
+/******************************************
+ * CUSTOMIZE CLOUD CSS BELOW (optional)
+ */
+    font-size: 100%;
+    width: auto;        /* auto or fixed width, e.g. 500px   */
+    font-family:'lucida grande','trebuchet ms',arial,helvetica,sans-serif;
+    background-color:#fff;
+    margin:1em 1em 0 1em;
+    
+    padding:2em; 
+/******************************************
+ * END CUSTOMIZE
+ */
+
+}
+#htmltagcloud{
+    display: block;
+    margin-top:100px;
+    word-spacing:normal;
+    letter-spacing:normal;
+    text-transform:none;
+    text-align:justify;
+    text-indent:0
+}
+#htmltagcloud a:link{text-decoration:none}
+#htmltagcloud a:visited{text-decoration:none}
+#htmltagcloud a:hover{color:white;background-color:#05f}
+#htmltagcloud a:active{color:white;background-color:#03d}
+.wrd{padding:0;position:relative}
+.wrd a{text-decoration:none}
+.tagcloud0{font-size:1.0em;color:#ACC1F3;z-index:10}
+.tagcloud0 a{color:#ACC1F3}
+.tagcloud1{font-size:1.4em;color:#ACC1F3;z-index:9}
+.tagcloud1 a{color:#ACC1F3}
+.tagcloud2{font-size:1.8em;color:#86A0DC;z-index:8}
+.tagcloud2 a{color:#86A0DC}
+.tagcloud3{font-size:2.2em;color:#86A0DC;z-index:7}
+.tagcloud3 a{color:#86A0DC}
+.tagcloud4{font-size:2.6em;color:#607EC5;z-index:6}
+.tagcloud4 a{color:#607EC5}
+.tagcloud5{font-size:3.0em;color:#607EC5;z-index:5}
+.tagcloud5 a{color:#607EC5}
+.tagcloud6{font-size:3.3em;color:#4C6DB9;z-index:4}
+.tagcloud6 a{color:#4C6DB9}
+.tagcloud7{font-size:3.6em;color:#395CAE;z-index:3}
+.tagcloud7 a{color:#395CAE}
+.tagcloud8{font-size:3.9em;color:#264CA2;z-index:2}
+.tagcloud8 a{color:#264CA2}
+.tagcloud9{font-size:4.2em;color:#133B97;z-index:1}
+.tagcloud9 a{color:#133B97}
+.tagcloud10{font-size:4.5em;color:#002A8B;z-index:0}
+.tagcloud10 a{color:#002A8B}
+.freq{font-size:10pt !important;color:#bbb}
+#credit{text-align:center;color:#333;margin-bottom:0.6em;font:0.7em 'lucida grande',trebuchet,'trebuchet ms',verdana,arial,helvetica,sans-serif}
+#credit a:link{color:#777;text-decoration:none}
+#credit a:visited{color:#777;text-decoration:none}
+#credit a:hover{color:white;background-color:#05f}
+#credit a:active{text-decoration:underline}
+
+.entry-language{
+    width: 50%;
+    float: left;
+}
+.entry-score{
+    width: 50%;
+    float: left;
+}
+.entry-score li{
+    color: #ff0000;
+}
+.entry-score li:first-child{
+    color: #999;
+}
+
+.notebook{
+    margin: 5px 10px;
+    padding: 5px 5px;
+}
+

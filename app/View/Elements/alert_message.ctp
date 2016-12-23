@@ -1,0 +1,3 @@
+<script>
+    alert('<?=$message?>');
+</script>

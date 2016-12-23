@@ -1,0 +1,107 @@
+/**user home **/
+.user-left{
+    width: 700px;
+    float: left;
+
+}
+.user-main{
+    width: 100%;
+    border: 1px solid #d3d3d3;
+    border-top:none;
+    margin-right: 70px;
+    padding: 10px 10px;
+}
+.more{
+    display: inline;
+    float: right;
+}
+
+
+/********User-Panel*********/
+
+.user-right{
+    width: 400px;
+    background-color: #f7f7f7;
+    padding: 10px;
+    float:right;
+
+}
+.user-right h3{
+    text-align: center;
+}
+.user-right img{
+    display: block;
+    margin: 30px auto;
+}
+.user-right dl{
+    margin: 30px 50px;
+}
+.user-right dt{
+    float: left;
+    clear: both;
+    color: #666666;
+}
+.user-right dd{
+    margin-left: 170px;
+}
+.statistic{
+    margin: 0px auto;
+    padding: 5px 0px;
+    text-align: center;
+}
+.statistic h3{
+    color:#0072b8;
+}
+.statistic table{
+    display: block;
+}
+.statistic td{
+    width: 120px;
+    border-left: 1px #dddddd solid;
+}
+.statistic td:first-child{
+    border-left: none;
+}
+.statistic p{
+    text-align: center;
+}
+.user-right a{
+    margin: 5px auto;
+    width: 250px;
+}
+.communication{
+    width: 250px;
+    margin: 5px auto;
+}
+.user-profile{
+    margin: 0px auto;
+    padding: 5px 20px;
+    text-align: left;
+}
+.user-profile tr td{
+    width: 160px;
+    text-indent: 1em;
+}
+.user-profile tr td:first-child{
+    border-right: 1px #dddddd solid;
+}
+.score h4,.ranking h4{
+    text-indent: 1.75em;
+    text-align: left;
+}
+.score p{
+    color: #ff0000;
+    text-align: center;
+}
+.ranking p{
+    text-align: center;
+}
+.ranking p span{
+    padding:0 0.5em;
+}
+.ranking p span:first-child{
+    color: #ff0000;
+}
+.score p,.ranking p{
+    font-size: 20px;
+}

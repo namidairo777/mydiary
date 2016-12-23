@@ -1,0 +1,249 @@
+html {
+    font-family: sans-serif;
+}
+body{
+    height: 100%;
+    margin: 0;
+}
+.warp{
+    min-height: 100%;
+    margin-top: -250px;
+    padding-top: 250px;
+    height: 100%;
+}
+.vertical-align{
+    display: table-cell;
+    vertical-align: middle;
+}
+/* landing-slides*/
+
+/* introduction */
+#landing-slides{
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+
+}
+.landing-slide{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+}
+
+.introduction{
+    overflow: hidden;
+    background: linear-gradient(rgba(27,30,39,0.9),rgba(27,30,39,0.9)),url(../img/intro-back.jpg);
+    background-size: 100% 100%, cover;
+    background-repeat: repeat, no-repeat;
+    background-position: top left, center center;
+    color: #ffffff;
+    z-index: 5;
+}
+
+
+.control{
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+}
+.control-log{
+    display: block;
+    width: 150px;
+    height: 44px;
+    background-size: 150px 44px;
+    background-image: url(../img/logo.png);
+}
+.control li{
+    margin-left: 36px;
+}
+
+.control-link{
+    list-style: none;
+}
+.intro-text{
+    position: absolute;
+    width: 100%;
+    top:35%;
+
+}
+.landing-text{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 30px;
+    color: #939eb4;
+}
+.statistics{
+    width: 100%;
+    position: absolute;
+    bottom: 100px;
+}
+.data{
+    float: left;
+    padding-left: 19px;
+    padding-right: 20px;
+    border-left: solid 1px #35373e;
+    text-align: center;
+    width: 33.3333333%;
+}
+.data:first-child{
+    border-left: none;
+}
+.tease{
+    position: absolute;
+    cursor: pointer;
+    width: 100%;
+    padding: 20px 0;
+    bottom: 0px;
+    background-color: #1792F0;
+}
+.tease p{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+}
+/* question */
+#question{
+    background: #1792F0;
+    z-index: 4;
+    display: table;
+}
+.big-logo{
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 200px;
+    margin-top: -50px;
+    background-size: 100px 200px;
+    background-repeat: no-repeat;
+    background-image: url(../img/big-logo.png);
+    -moz-transition-delay: 0.8s;
+    -o-transition-delay: 0.8s;
+    -webkit-transition-delay: 0.8s;
+    transition-delay: 0.8s;
+}
+
+#question h1{
+    color: #ffffff;
+    text-align: center;
+}
+
+#question p{
+    margin-top: 30px;
+    color: rgba(255,255,255,0.6);
+    width: 47%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* instruction */
+#instruction{
+    background-color: #f0f4f5;
+    z-index: 3;
+    display: table;
+    text-align: center;
+}
+
+#instruction h2{
+    color: #000000;
+    text-align: center;
+    margin-top: -80px;
+    font-family: 'Tahoma', 'Verdana', 'Arial';
+}
+
+#instruction img{
+    margin: 20px auto;
+}
+
+#instruction p{
+    font-size: 20px;
+}
+
+
+/* inspiration */
+#inspiration{
+    background-color: #FFF;
+
+    z-index: 2;
+}
+
+#inspiration h1{
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Tahoma', 'Verdana', 'Arial';
+    color: #c12e2a;
+}
+
+#inspiration-img{
+    margin: 0 auto;
+    width: 1000px;
+    height: 491px;
+    background-image: url("../img/inspiration.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+/* join us */
+#join-us{
+    overflow: hidden;
+    background: linear-gradient(rgba(27,30,39,0.9),rgba(27,30,39,0.9)),url(../img/join-us.JPG);
+    background-size: cover;
+    background-repeat: repeat, no-repeat;
+    background-position: center center;
+    color: #ffffff;
+    z-index: 1;
+}
+.join-us-form{
+    width: 400px;
+    margin: 0 auto;
+}
+#join-us h2{
+    text-align: center;
+    font-family: fantasy;
+    margin-top: 50px;
+}
+#join-us button{
+    margin: 20px auto;
+}
+
+/*landing-pagination*/
+.landing-pagination{
+    position: fixed;
+    right: 20px;
+    top: 50%;
+
+    -moz-transition: background 1s ease-in-out;
+    -o-transition: background 1s ease-in-out;
+    -webkit-transition: background 1s ease-in-out;
+    transition: background 1s ease-in-out;
+    border-radius: 20px;
+    padding: 10px 6px;
+    margin-top: -60px;
+    z-index: 10;
+}
+.landing-pagination>div {
+    background: #515151;
+    -moz-transition: background 1s ease-in-out;
+    -o-transition: background 1s ease-in-out;
+    -webkit-transition: background 1s ease-in-out;
+    transition: background 1s ease-in-out;
+    margin-top: 8px;
+    width: 10px;
+    height: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/***********************/
+.text-mid{
+    text-align: center;
+}

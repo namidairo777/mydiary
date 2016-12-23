@@ -1,0 +1,87 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript">
+          $(document).ready(function(){
+              var ori_text=$("inputText").text();
+              $("#line").click(function(){
+                  var SelRange;
+                  if(window.getSelection){
+                      SelRange=window.getSelection().getRangeAt(0);
+
+                  }else if(document.getSelection){
+                      SelRange=document.getSelection().getRangeAt(0);
+                  }else if(document.selection){
+                      SelRange=document.selection.createRange();
+                  }
+                  if(SelRange!=null && SelRange!=""){
+                      if(SelRange.pasteHTML){
+                          SelRange.pasteHTML("<span class='Line'>"+SelRange.text+"</span>");
+                      }else{
+                          var newNode= $("<span class='Line'>")[0];
+                          SelRange.surroundContents(newNode);
+                      }
+                  }
+              });
+              $("#red").click(function(){
+                  var SelRange;
+                  if(window.getSelection){
+                      SelRange=window.getSelection().getRangeAt(0);
+
+                  }else if(document.getSelection){
+                      SelRange=document.getSelection().getRangeAt(0);
+                  }else if(document.selection){
+                      SelRange=document.selection.createRange();
+                  }
+                  if(SelRange!=null && SelRange!=""){
+                      if(SelRange.pasteHTML){
+                          SelRange.pasteHTML("<span class='Red'>"+SelRange.text+"</span>");
+                      }else{
+                          var newNode= $("<span class='Red'>")[0];
+                          SelRange.surroundContents(newNode);
+                      }
+                  }
+              });
+              $("#reset").click(function(){
+                  $("#inputText").text(ori_text);
+              });
+
+              $("#save").click(function(){
+                  $("#output").html($("#inputText").html());
+              })
+
+          });
+        </script>
+        <style type="text/css">
+            body{
+                font-size: 15px;
+            }
+            #inputText{
+                width: 300px;
+                height: 100px;
+                background-color: #eeeeee;
+            }
+            .Line{
+                color: #cccccc;
+                text-decoration: line-through;
+            }
+            .Red{
+                color: #FF0000;
+                font-size: 17px;
+            }
+        </style>
+    </head>
+    <body>
+        <h3>Test for selected content correction</h3>
+        <button id="line">Line</button>
+        <button id="red">Red</button>
+        <button id="reset">Reset</button>
+        <button id="save">Preview</button>
+        <div id="inputText" contenteditable="true">
+            I loves you.
+        </div>
+        <div id="output"></div>
+
+    </body>
+</html>

@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/home.css" rel="stylesheet">
+    <link href="css/user.css" rel="stylesheet">
+    <link href="css/diary.css" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <a class="navbar-brand" href="home.html">
+                <img alt="Brand" src="img/logo-black.png">
+            </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Post</a></li>
+                <li><a href="#">Correct</a></li>
+
+            </ul>
+            <form class="navbar-form navbar-left" role="search">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+                <li >
+                    <img alt="user-name" src="img/kuroshima.png" width="50px">
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">namidairo <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">Messages</a></li>
+                        <li><a href="#">My Friends</a></li>
+                        <li><a href="#">My Journal</a></li>
+                        <li><a href="#">My Notebook</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Edit Profile</a></li>
+                        <li><a href="#">Setting</a></li>
+                        <li><a href="#">LOG OUT</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container -->
+</nav>
+<div class="home-slide">
+    <div class="container">
+        <h1>朋友</h1>
+        <p>海内存知已，天涯若比邻
+            —— 唐·王勃
+        </p>
+    </div>
+</div>
+<div class="content">
+    <div class="container">
+        <ol class="breadcrumb">
+            <span class="glyphicon glyphicon-home"></span>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="#">Member</a></li>
+            <li><a href="home.html">namidairo</a></li>
+            <li><a href="#">Journals</a></li>
+            <li class="active">Seats for "Alone Lunch"</li>
+        </ol>
+        <div class="userContent">
+            <div class="user-left">
+                <hr>
+                <div class="title">Seats for "Alone Lunch"</div>
+                <div class="addToNote">
+                    <button  class="btn btn-sm btn-default" data-toggle="tooltip" data-placement="bottom" title="add to notebook">+<span class="glyphicon glyphicon-book"></span>
+                    </button>
+                </div>
+                <br/><hr>
+                <div class="diary-main">
+                    <div class="tools">
+                        <span class="time">Feb 12, 2015 10:12</span>
+                        <div class="tools-view">
+                            <ul>
+                                <li><span class="glyphicon glyphicon-eye-open" data-toggle="tooltip" data-placement="top" title="view">12</span></li>
+                                <li><span class="glyphicon glyphicon-comment" data-toggle="tooltip" data-placement="top" title="comments">12</span></li>
+                                <li><span class="glyphicon glyphicon-ok" data-toggle="tooltip" data-placement="top" title="corrections">12</span></li>
+                                <li><span class="glyphicon glyphicon-pencil" data-toggle="tooltip" data-placement="top" title="written language">English</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="view-style">
+                        <button id="view-style" class="btn btn-sm btn-default" title="vertical-view">vertical view</button>
+                    </div>
+                    <div class="diary-body">
+                        <div id="diary-ori" class="diary-normal">
+                            <p>
+                                Many newspapers say more and more students eat lunch alone in Japan. Some universities prepared special seats for them. The seats are usually called "Alone lunch seats."
+                                <br/>
+
+                                The users are students who want to eat lunch alone or who have no friends to eat lunch with. My university also has many "Alone lunch seats", and many students use these seats. They always come to the restaurant alone, eat lunch alone, and leave there alone. It is a problem.
+                                <br/>
+                                I have an idea. They should talk to another student who sit down on an "Alone lunch seat." If they talk to him/her, they will be able to become friends, because he/she is also alone. I think universities should make "Looking for friends seats" instead of "Alone lunch seats."
+                            </p>
+                        </div>
+                        <div id="diary-mo" class="diary-normal">
+                            <p>
+                                お一人様専用座席
+                                <br/>
+                                新聞によると、一人で食事をする学生が増えてきているらしい。彼らのために特別な座席を新設した大学もある。その座席は通称「ぼっち席」という。
+                                <br/>
+
+                                利用者は一人で食事をしたい学生もしくは食事をする友達のいない学生である。我が大学にも多くの「ぼっち席」があり、利用者も多い。彼らは独りで食堂を訪れ、独りで食べ、独りでそこを後にする。これは問題である。
+                                <br/>
+                                彼らは他の「ぼっち席」に座る学生に話しかけるべきだと思う。話しかければ、友達もできるだろう。なぜならば隣の人もまた独りだからである。大学は「ぼっち席」ではなく「友達募集席」を作るべきだと思う。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <a href="#user-correction" id="correct-link" class="btn btn-primary btn-lg">correct and comment</a>
+                <hr>
+                <div class="correct-comment-entry">
+                    <div class="entry-head">
+                        <img class="head-30" src="img/kuroshima.png">
+                        <a class="username" href="userHome.html">namidairo</a>
+                        <span class="time">Jan 12,2014 18:39</span>
+                    </div>
+                    <div class="correction-body">
+                        <div class="correction-box">
+                            <ul class="correction-entry">
+                                <li>
+                                    <span class="glyphicon glyphicon-pencil"></span>
+                                    Many newspapers say more and more students eat lunch alone in Japan.
+                                </li>
+                                <li>
+                                    <span class="glyphicon glyphicon-ok"></span>
+                                    Many <span class="red-text">newspaper</span> say more and more students eat lunch alone in Japan.
+                                </li>
+                                <li>
+                                    <p class="correct-comment">This way is not very good to say in formal</p>
+                                </li>
+                            </ul>
+                            <div class="correction-note-box">
+
+                                <button  class="btn btn-sm btn-default" data-toggle="tooltip" data-placement="bottom" title="add to notebook">+<span class="glyphicon glyphicon-book"></span>
+                                </button>
+                            </div>
+                            <hr>
+                        </div>
+                        <div class="correction-box">
+                            <ul class="correction-entry">
+                                <li>
+                                    <span class="glyphicon glyphicon-pencil"></span>
+                                    Many newspapers say more and more students eat lunch alone in Japan.
+                                </li>
+                                <li>
+                                    <span class="glyphicon glyphicon-ok"></span>
+                                    Many <span class="red-text">newspaper</span> say more and more students eat lunch alone in Japan.
+                                </li>
+                            </ul>
+                            <div class="correction-note-box">
+
+                                <button  class="btn btn-sm btn-default" data-toggle="tooltip" data-placement="bottom" title="add to notebook">+<span class="glyphicon glyphicon-book"></span>
+                                </button>
+                            </div>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="entry-comment">
+                        <p>
+                            nice work!<br/>
+                            You've got a great ability of English writing!<br/>
+                            I am learning Japanese!よろしく
+                        </p>
+                        <div class="addToNote">
+                            <button  class="btn btn-sm btn-default" data-toggle="tooltip" data-placement="bottom" title="add to notebook">+<span class="glyphicon glyphicon-book"></span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div style="clear: both"></div>
+                    <p><span class="glyphicon glyphicon-star"></span>Thanks for your correction</p>
+                </div>
+                <div class="comment-entry">
+                    <img class="head-30" src="img/kuroshima.png" style="display: block">
+                    <div class="comment-body">
+                        <a class="username" href="userHome.html">namidairo</a>
+                        <span class="time">Jan 12,2014 18:39</span>
+                        <br/>
+                        <p>nice work!</p>
+                    </div>
+                </div>
+                <div class="comment-entry">
+                    <img class="head-30" src="img/kuroshima.png" style="display: block">
+                    <div class="comment-body">
+                        <a class="username" href="userHome.html">namidairo</a>
+                        <span class="time">Jan 12,2014 18:39</span>
+                        <br/>
+                        <p>nice work!</p>
+                    </div>
+                </div>
+                <div class="correction-reply">
+                    <img src="img/heteacher.JPG" class="head-30">
+                    <div class="comment-body">
+                        <textarea placeholder="comment" style="max-width: 630px"  class="form-control" rows="2"></textarea>
+                    </div>
+                </div>
+                <div style="clear: both"></div>
+                <div id="user-correction">
+                    <div class="correction-title">
+                        <h5><b>Post your correction and comment</b></h5>
+                    </div>
+                    <form>
+                        <div class="correct-sentence" id="correct-sentence">
+                            <div class="post-btn">
+                                <a href="#user-correction" class="btn btn-primary btn-sm">confirm and post</a>
+                            </div>
+                            <div>
+                                <h4>Title</h4>
+                            </div>
+                            <hr>
+                            <div class="correct-sentence-title">
+                                <div class="sentence" id="sentence_0">
+                                    Seats for "Alone Lunch"
+                                </div>
+                                <div class="correction" id="correction_0" style="display: none;">
+                                    <ul class="correction_field" >
+                                        <li class="correct">
+                                            <span class="glyphicon glyphicon-ok"></span>Seat for Alone
+                                        </li>
+                                        <li class="correct">
+                                            <span class="glyphicon glyphicon-ok"></span>Seat for Lunch
+                                        </li>
+                                    </ul>
+
+                                </div>
+                                <a class="correction-btn" title="#correction_0">show corrections</a>
+                                <a id="correct-btn_0" class="btn btn-xs btn-primary correct-btn" name="#editable_0" title="show">Correct</a>
+                                <div id="editable_0" style="display: none;">
+                                    <textarea style="max-width:638px"  class="form-control" rows="2">Many newspapers say more and more students eat lunch alone in Japan
+                                    </textarea>
+                                    <br>Add a description or comment here.(Optional)<br>
+                                    <textarea placeholder="Describe in any language" style="max-width:638px"  class="form-control" rows="1"></textarea>
+                                </div>
+                                <hr>
+                            </div>
+                            <div>
+                                <h4>Body</h4>
+                                <hr>
+                            </div>
+                            <div class="correct-sentence-body">
+                                <div class="sentence" id="sentence_1">
+                                    Seats for "Alone Lunch"
+                                </div>
+                                <div class="correction" id="correction_1" style="display: none;">
+                                    <ul class="correction_field" >
+                                        <li class="correct">
+                                            <span class="glyphicon glyphicon-ok"></span>Seat for Alone
+                                        </li>
+                                        <li class="correct">
+                                            <span class="glyphicon glyphicon-ok"></span>Seat for Lunch
+                                        </li>
+                                    </ul>
+
+                                </div>
+                                <a class="correction-btn" title="#correction_1">show corrections</a>
+                                <a id="correct-btn_1" class="btn btn-xs btn-primary correct-btn" name="#editable_1" title="show">Correct</a>
+                                <div id="editable_1" style="display: none;">
+                                    <textarea style="max-width:638px"  class="form-control" rows="2">Many newspapers say more and more students eat lunch alone in Japan
+                                    </textarea>
+                                    <br>Add a description or comment here.(Optional)<br>
+                                    <textarea placeholder="Describe in any language" style="max-width:638px"  class="form-control" rows="1"></textarea>
+                                </div>
+                                <hr>
+                            </div>
+                            <div class="comment-box">
+                                <div class="entry-head">
+                                    <img class="head-30" src="img/kuroshima.png">
+                                    <a class="username" href="userHome.html">namidairo</a>
+                                    <span class="time">Jan 12,2014 18:39</span>
+                                </div>
+                                <textarea id="comment" placeholder="your opinion" style="max-width:638px"  class="form-control" rows="4"></textarea>
+                            </div>
+                            <div class="post-btn">
+                                <a href="#user-correction" class="btn btn-primary btn-sm">confirm and post</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="user-right">
+                <img src="img/heteacher.JPG" style="width: 300px">
+                <h3><b>namidairo</b></h3>
+                <div class="user-language">
+                    <dl>
+                        <dt><span class="glyphicon glyphicon-comment"></span>native language</dt>
+                        <dd>English</dd>
+                        <dt><span class="glyphicon glyphicon-pencil"></span>Language of study</dt>
+                        <dd>
+                            Chinese
+                            <br/>
+                            Japanese
+                        </dd>
+                    </dl>
+                </div>
+                <hr>
+                <div class="statistic">
+                    <table>
+                        <tr>
+                            <td>
+                                <h3>35</h3>
+                                <p>Entries<br/> written</p>
+                            </td>
+                            <td>
+                                <h3>121</h3>
+                                <p>Corrections<br/> made</p>
+                            </td>
+                            <td>
+                                <h3>223</h3>
+                                <p>Corrections<br/> recieved</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+                <hr>
+                <div class="user-profile">
+                    <table>
+                        <tr>
+                            <td>ID</td>
+                            <td>29131239</td>
+                        </tr>
+                        <tr>
+                            <td>Nationality</td>
+                            <td>United States</td>
+                        </tr>
+                        <tr>
+                            <td>Age</td>
+                            <td>22</td>
+                        </tr>
+                        <tr>
+                            <td>Sex</td>
+                            <td>Male</td>
+                        </tr>
+                        <tr>
+                            <td>Occupation</td>
+                            <td>Student</td>
+                        </tr>
+                    </table>
+                </div>
+                <hr>
+                <div class="score">
+                    <h4>Scores:</h4>
+                    <p>11190</p>
+                </div>
+                <hr>
+                <div class="ranking">
+                    <h4>Ranking:</h4>
+                    <p><span>123</span><span>/</span><span>3242</span></p>
+                </div>
+                <hr>
+                <div class="communication">
+                    <a href="#" class="btn btn-primary btn-lg">Add friend</a>
+                    <a href="#" class="btn btn-default btn-lg">Send message</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="container">
+        <img src="img/big-logo.png">
+    </div>
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

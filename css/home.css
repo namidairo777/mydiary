@@ -1,0 +1,94 @@
+html {
+    font-family: sans-serif;
+}
+body{
+    height: 100%;
+    margin: 0;
+}
+.navbar-brand{
+    padding:0px 15px;
+}
+.home-slide{
+    margin-top: 30px ;
+    width: 100%;
+    padding: 60px 60px 60px 60px;
+    background-color: rgba(27,30,39,0.9);
+}
+.home-slide h1{
+    color: #fff;
+    font-size: 60px;
+
+}
+.home-slide p{
+    font-size: 20px;
+    color: #fff;
+}
+
+
+/***CONTENT***/
+.content{
+    margin: 20px 0px;
+}
+.content ol{
+    background-color: #fff;
+}
+.entry{
+    margin: 10px auto;
+}
+.entry-body,.entry-left{
+    display: table-cell;
+    vertical-align: top;
+    padding-right: 10px;
+}
+.entry-body p{
+    max-height: 60px;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow:ellipsis;
+}
+.entry-username{
+    color: blue;
+
+}
+.entry-username a{
+    text-decoration: none;
+}
+.entry-head{
+    color: darkblue ;
+}
+.entry-head a{
+    text-decoration: underline;
+}
+
+.entry-info{
+    color: #999;
+    font-size: 8px;
+}
+.entry-status{
+    float: right;
+    width: auto;
+    color: #888;
+    display: table-cell;
+    list-style: none;
+}
+.entry-status li{
+    float: left;
+    padding-right: 5px;
+}
+
+.page-panigation{
+    margin: 10px auto;
+    width: 232px;
+}
+
+
+/***footer****/
+.footer{
+    width: 100%;
+    background-color: rgba(27,30,39,0.9);
+}
+.footer img{
+    display: block;
+    height: 150px;
+    margin: 20px auto;
+}

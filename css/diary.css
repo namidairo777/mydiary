@@ -1,0 +1,199 @@
+hr{
+    clear: both;
+}
+.title{
+    font-size: 18px;
+    float: left;
+}
+.addToNote{
+    float: right;
+
+}
+
+.diary-main {
+    width: 100%;
+}
+
+.tools{
+    font-size: 8px;
+}
+
+.tools-view{
+    float: right;
+}
+.tools-view ul{
+    list-style: none;
+}
+.tools-view li{
+    float: left;
+    padding-right: 5px;
+}
+.view-style{
+    margin-top: 10px;
+    float: right;
+    clear: both;
+}
+.diary-body{
+    width: 100%;
+    clear: both;
+}
+#diary-mo{
+    color: #666666;
+}
+.diary-normal{
+    width: 100%;
+    padding: 30px 0px;
+
+}
+.diary-normal:first-child{
+    border-bottom: 1px solid #dddddd;
+}
+
+.diary-vertical{
+    margin: 30px 0px;
+    padding: 0px 5px;
+    width: 50%;
+    float: left;
+}
+.diary-vertical:first-child{
+    border-right: 1px solid #dddddd;
+}
+
+#correct-link{
+    width: 300px;
+    display: block;
+    margin: 10px auto;
+}
+.correct-comment-entry{
+    padding: 10px 10px;
+    width: 100%;
+    background-color: #9acfea;
+}
+.head-30{
+    float: left;
+    width: 30px;
+}
+.username{
+    text-decoration-line: none;
+    float: left;
+}
+.time{
+    color: #999;
+    font-size: 8px;
+    float:right;
+    text-shadow: 1px 1px 0 white;
+}
+.correction-body{
+    width: 100%;
+    background-color: #ffffff;
+    padding: 10px 10px;
+}
+.correction-entry{
+    list-style: none;
+    padding: 0px;
+    width: 600px;
+    float: left;
+}
+.correction-box{
+}
+
+.correction-entry li{
+    line-height: 30px;
+}
+.correction-note-box{
+    line-height: 100%;
+    float: right;
+}
+.correction-entry:first-child{
+    border:none;
+}
+.entry-head{
+    height:30px;
+    margin-bottom: 10px;
+}
+.entry-head a{
+    padding-left: 5px;
+    line-height: 30px;
+    text-decoration: none;
+}
+.red-text{
+    color:#FF0000;
+}
+.entry-comment{
+    width: 100%;
+    margin-top: 10px;
+}
+.entry-comment p{
+    width: 70%;
+    float: left;
+}
+.comment-entry{
+    margin: 10px auto;
+    width: 95%;
+    float: right;
+    clear: both;
+}
+.correct-comment{
+    margin-left: 20px;
+    padding: 10px 30px;
+    line-height: 1.2;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.correction-reply{
+    margin: 10px 0;
+    float: left;
+    width: 100%;
+}
+.comment-body{
+    width: 95%;
+    float: right;
+    padding: 10px 10px;
+    background-color: #f7f7f7;
+}
+
+#user-correction{
+    width: 100%;
+    border: 1px solid #dddddd;
+}
+.correction-title {
+    margin-top: 0px;
+    width: 100%;
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #dddddd;
+    text-indent: 2em;
+}
+
+
+#correct-sentence{
+    width: 100%;
+    padding: 10px 30px ;
+}
+.post-btn{
+    margin: 5px 5px ;
+    text-align: center;
+}
+
+.sentence{
+}
+.correct-btn{
+    margin-top:20px;
+}
+
+.correction_field{
+    list-style: none;
+    padding-left: 10px;
+
+}
+
+.correction-btn{
+    text-decoration: none;
+    display: block;
+}
+
+.comment-box{
+    background-color: #f7f7f7;
+    padding: 10px 10px ;
+}
