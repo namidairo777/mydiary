@@ -16,15 +16,15 @@ feedback from the users who is proficient in this language or whose mother tongu
 Singuler Value Decomposition<br/>
 to recommend diaries of user similarity for uesrs.
 ## Screenshots
-Database: 
-![alt text](https://github.com/namidairo777/mydiary/blob/master/git_img/database.png)
+Database:<br>
+![alt text](https://github.com/namidairo777/mydiary/blob/master/git_img/Database.png)
 
 
-DiaryList: 
+DiaryList: <br>
 ![alt text](https://github.com/namidairo777/mydiary/blob/master/git_img/DiaryList.png)
 
-correction: 
+correction: <br>
 ![alt text](https://github.com/namidairo777/mydiary/blob/master/git_img/correction.png)
 
-administration: 
+administration:<br> 
 ![alt text](https://github.com/namidairo777/mydiary/blob/master/git_img/admin.png)
