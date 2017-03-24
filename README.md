@@ -17,14 +17,14 @@ Singuler Value Decomposition<br/>
 to recommend diaries of user similarity for uesrs.
 ## Screenshots
 Database: 
-![alt text](https://github.com/namidairo777/mydaiary/git_img/database.png)
+![alt text](https://github.com/namidairo777/mydiary/blob/master/git_img/database.png)
 
 
 DiaryList: 
-![alt text](https://github.com/namidairo777/mydaiary/git_img/DiaryList.png)
+![alt text](https://github.com/namidairo777/mydiary/blob/master/git_img/DiaryList.png)
 
 correction: 
-![alt text](https://github.com/namidairo777/mydaiary/git_img/correction.png)
+![alt text](https://github.com/namidairo777/mydiary/blob/master/git_img/correction.png)
 
 administration: 
-![alt text](https://github.com/namidairo777/mydaiary/git_img/admin.png)
+![alt text](https://github.com/namidairo777/mydiary/blob/master/git_img/admin.png)
