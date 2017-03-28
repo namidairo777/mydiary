@@ -41,4 +41,4 @@ Ranking of the languages with different font size basing one their using frequen
 - Correction:
 ![Correction](https://github.com/namidairo777/mydiary/blob/master/git_img/correction.png)
 - User feature (Home, Diaries, Friends, Notebook):
-![User](https://github.com/namidairo777/mydiary/blob/master/git_img/User.png | width=500)
+<img src="https://github.com/namidairo777/mydiary/blob/master/git_img/User.png" width="500px">
