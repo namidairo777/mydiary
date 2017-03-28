@@ -6,23 +6,23 @@ feedback from the users who is proficient in this language or whose mother tongu
 ## Inspiration
 ![Inspiration](https://github.com/namidairo777/mydiary/blob/master/git_img/inspiration.png)
 ## System features
-1. Friend system
+- Friend system
 
 You can check other user's profile and send a friend request
 
 After he/she accepted your request, you will become friends and see friends dairy list on home page.
-2. Messaging system
+- Messaging system
 
 This is a unread/read feature in this project, similar to LINE.
-3. Ranking system
+- Ranking system
 
 Users could check their own rank on all languages or on a certain language based on scores.
 
 Scores are based on user's correction numbers, comment numbers and his/her own diary numbers.
-4. Recommendation system
+- Recommendation system
 
 SVD (Singuler Value Decomposition) to recommend diaries of user similarity for uesrs.
-5. Cloud tag
+- Cloud tag
 
 Ranking of the languages with different font size basing one their using frequency
 ![Chatting](https://github.com/namidairo777/mydiary/blob/master/git_img/chatting.png)
@@ -41,4 +41,4 @@ Ranking of the languages with different font size basing one their using frequen
 - Correction:
 ![Correction](https://github.com/namidairo777/mydiary/blob/master/git_img/correction.png)
 - User feature (Home, Diaries, Friends, Notebook):
-![User](https://github.com/namidairo777/mydiary/blob/master/git_img/User.png)
+![User](https://github.com/namidairo777/mydiary/blob/master/git_img/User.png | width=500)
